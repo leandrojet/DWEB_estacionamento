@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>formulario</title>
+  <script src="registro.js"></script>
+  <style>
+    
+    body{
+      font-family: Arial,helvetica, sans-serif;
+      background-image: linear-gradient(to right, rgb(70, 243, 7), rgb(232, 10, 10));
+    }
+    .box{
+      position: absolute;
+      left: 39%;
+      transform: translate(-000% ,100%);
+      background-color: rgb(251, 249, 249, 0.8);
+      padding: 20px;
+      border-radius: 70px;
+    }
+  </style>
+</head>
+<body>
+  <a href="vagas.html">vagas cadastradas</a>
+  <br>
+  <a href="vagasdisponiveis.html">vagas disponiveis</a>
+  <div class="box">
+      <form action="">
+        <fieldset>
+          <legend><b>formulario dos moradores</b></legend>
+          <br>
+          <div class="inputbox">
+            <input type="text" name="placa do veiculo" id="placa_do_veiculo" class="inputUser" required>
+            <label for="placa_do_veiculo">placa do veículo</label>
+          </div>
+          <div class="inputbox">
+            <input type="text" name="nome do proprietario" id="nome_do_proprietario" class="inputUser" required>
+            <label for="nome_do_proprietario">nome do proprietario</label>
+          </div>
+          <div class="inputbox">
+            <input type="text" name="numero do apartamento" id="numero_do_apartamento" class="inputUser" required>
+            <label for="numero_do_apartamento">numero do apartamento</label>
+          </div>
+          <div class="inputbox">
+            <input type="text" name="bloco do apartamento" id="bloco_do_apartamento" class="inputUser" required>
+            <label for="bloco_do_apartamento">bloco do apartamento</label>
+          </div>
+          <div class="inputbox">
+            <input type="text" name="modelo do veiculo" id="modelo_do_veiculo" class="inputUser" required>
+            <label for="modelo_do_veiculo">modelo do veiculo</label>
+          </div>
+          <div class="inputbox">
+            <input type="text" name="cor do veiculo" id="cor_do_veiculo" class="inputUser" required>
+            <label for="cor_do_veiculo">cor do veiculo</label>
+          </div>
+          <div class="inputbox">
+            <input type="text" name="numero de vagas de estacionamento" id="numero_de_vagas_de_estacionamento" class="inputUser" required>
+            <label for="numero_de_vagas_de_estacionamento">numero de vagas de estacionamento</label>
+          </div>
+          <button type="button" onclick="cadastrar()">cadastrar</button>
+
+         </fieldset>
+      </form>
+    </div>
+
+
+
+
+
+</body>
+</html>
