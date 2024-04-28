@@ -1,4 +1,5 @@
 function cadastrar(){
+    alert('Cadastro realizado com sucesso!')
     let placa = document.getElementById('placa_do_veiculo').value
     let proprietario = document.getElementById('nome_do_proprietario').value
     let numapart = document.getElementById('numero_do_apartamento').value
